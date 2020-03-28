@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/v4-shims.scss';
+.navbar {
+    margin-bottom:10px;
+}
+.imgedit{
+    width:150px;
+    height:150px;
+    margin-top:30px;
+}
+
+#sidebar{
+    font-size:17px;
+    border:1px solid black;
+}
+
+// .sidebar{
+//     background:rgb(248,249,250);
+// }
+
+#sidebar ul li a{
+    // color:rgb(89,89,89);
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    text-decoration: none;
+}
+#sidebar ul li a:hover{
+    color:rgb(181, 177, 204);
+}
+.search {
+    border-bottom: 1px solid rgb(242,242,242);
+}
+
+#sidebar{
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.logout {
+    float: right;
+    margin-left: auto;
+}
+
+.error{
+    margin: auto;
+  width: 50%;
+//   border: 3px solid green;
+  padding: 10px;
+}
+
+.con {
+    text-align: justify;
+    text-justify: inter-word;
+}
